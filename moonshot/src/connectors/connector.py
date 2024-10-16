@@ -97,6 +97,7 @@ class Connector:
             "pre_prompt",
             "post_prompt",
             "system_prompt",
+            "headers"
         }
         self.optional_params = {
             k: v for k, v in ep_args.params.items() if k not in excluded_keys
